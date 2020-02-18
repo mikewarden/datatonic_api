@@ -1,0 +1,50 @@
+package com.mw.datatonic.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class DataEntry {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	
+	private Integer issuesResolved;
+	private Integer coverageDBs;
+	private Integer coverageTables;
+	private Integer coverageFiles;
+	private Integer dataSources;
+	private Integer sensDatabases;
+	private Integer sensTables;
+	private Integer sensFiles;
+	private Integer swiftCode;
+	private Integer email;
+	private Integer bank;
+	private Integer phone;
+	private Integer ssn;
+	private Integer passport;
+	private Integer routing;
+	private Integer dob;
+	private Integer creditCard;
+	private Integer hippaa;
+	private Integer ferpa;
+	private Integer class3;
+	private Integer class4;
+	private Integer class5;
+	private Integer class6;
+	private Integer class7;
+	private Integer class8;
+	private Integer p11; 
+	private Integer icDS1;
+	private Integer icDS2;
+	private Integer icDS3;
+	private Integer icDS4;
+	private Double sdDS1;
+	private Double sdDS2;
+	private Double sdDS3;
+	private Double sdDS4;
+	
+
+}

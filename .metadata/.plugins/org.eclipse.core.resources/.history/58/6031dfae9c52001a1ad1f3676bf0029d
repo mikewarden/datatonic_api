@@ -1,0 +1,16 @@
+package com.mw.datatonic.repository;
+
+import java.util.ArrayList;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.mw.datatonic.model.DataEntry;
+
+@Repository
+public interface DatatonicRepository extends CrudRepository<DataEntry, Long>{
+
+	DataEntry findDataEntryById(Long id);
+	
+
+}

@@ -1,0 +1,21 @@
+package com.mw.datatonic.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mw.datatonic.model.DataEntry;
+import com.mw.datatonic.repository.DatatonicRepository;
+
+@Service
+public class ServiceImpl {
+	
+	@Autowired
+	private DatatonicRepository datatonicRepository;
+
+	@Override
+	public void saveData(DataEntry dataEntry) {
+		
+		datatonicRepository.save();
+	}
+
+}

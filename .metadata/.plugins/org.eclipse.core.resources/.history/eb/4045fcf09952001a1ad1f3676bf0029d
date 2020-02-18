@@ -1,0 +1,5 @@
+package com.mw.datatonic.service;
+
+public interface ServiceInt {
+
+}

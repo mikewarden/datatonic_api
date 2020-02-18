@@ -1,0 +1,9 @@
+package com.mw.datatonic.service;
+
+import com.mw.datatonic.model.DataEntry;
+
+public interface ServiceInt {
+
+	void saveData(DataEntry dataEntry);
+
+}
